@@ -11,7 +11,7 @@ async function vizualizarInformacoesGlobais() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que o mundo tem <span>${pessoasNoMundo} bilhões</span> de pessoas e que aproximadamente <span>${pessoasConectadas} bilhões</span> estão conectadas em alguma rede social e passam em média <span>${horas} horas</span> e <span>${minutos} minutos</span> conectadas.<br>Isso significa que aproximadamente <span>${porcentagemConectada}%</span> de pessoas estão conectadas em alguma rede social.`
+    paragrafo.innerHTML = `Com uma população estimada em <span>212,6 milhões</span> de habitantes, aproximadamente <span>98% dos brasileiros</span> utilizam algum tipo de aplicativo atualmente. Um levantamento realizado pelo IBGE em 2022 apontou que, em média, <span>1,5 milhão</span>de brasileiros utilizam aplicativos e plataformas digitais como fonte de trabalho. Do total de usuários de aplicativos, cerca de <span>161,6 milhões</span> apresentam uso excessivo dessas ferramentas.`
 
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
